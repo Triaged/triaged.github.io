@@ -11,34 +11,76 @@
     <link rel="stylesheet" href="/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/syntax.css">
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="/css/main.css">
-  </head>
+    <link rel="stylesheet" href="/css/style.css">
 
+    <script type="text/javascript" src="//use.typekit.net/dli1exz.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+  </head>
   <body>
-    <div class="site">
+    <div class="site" id="wrap">
       <div class="header">
         <h1 class="title"><a href="/">{{ site.name }}</a></h1>
         <a class="extra" href="/">home</a>
       </div>
       {{ content }}
-      <div class="footer">
-        <div class="contact">
-          <p>
-          Your Name<br />
-          What You Are<br />
-          you@example.com
-          </p>
-        </div>
-        <div class="contact">
-          <p>
-          <a href="https://github.com/yourusername">github.com/yourusername</a><br />
-          <a href="https://twitter.com/yourusername">twitter.com/yourusername</a><br />
-          </p>
-        </div>
+      
+      <div id="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+              <ul class="footer-links">
+                <div class="row">
+                  <li class="col-lg-3">
+                    <div class="footer-headline">
+                      <img class="footer-logo" src="../img/badge-logo-sm.png">
+                    </div>
+                  </li>
+                  <li class="col-lg-3">
+                    <div class="footer-headline">
+                      <h5>Learn More</h5>
+                    </div>
+                    <ul class="list-links">
+                      <li>
+                        <a href="https://badge.co/faq">FAQ</a>
+                      </li>
+                      <li>
+                        <a href="https://badge.co/about">About Us</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="col-lg-3">
+                    <div class="footer-headline">
+                      <h5>Get In Touch</h5>
+                    </div>
+                    <ul class="list-links">
+                      <li>
+                        <a id="Intercom" href="mailto:5f50e0c798d99997d289d68d41287fc59de15c64@incoming.intercom.io">Contact Us</a>
+                      </li>
+                      <li>
+                        <a href="http://twitter.com/badgeapp">Twitter</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="col-lg-3">
+                    <div class="footer-headline">
+                      <h5>Badge</h5>
+                    </div>
+                    <ul class="list-links">
+                      <li>
+                        <a href="/users/sign_in">Login</a>
+                      </li>
+                    </ul>
+                  </li>
+                </div>
+              </ul>
+            </div>
+          </div>
+        </div>        
       </div>
+      
     </div>
   </body>
-
   <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -47,5 +89,4 @@
   ga('create', 'UA-53953815-1', 'auto');
   ga('send', 'pageview');
   </script>
-  
 </html>

@@ -1,0 +1,122 @@
+---
+# this ensures Jekyll reads the file to be transformed into CSS later
+# only Main files contain this front matter, not partials.
+---
+
+// Typography
+p {
+  font-family: 'Whitney SSm A', 'Whitney SSm B'; 
+}
+h1 {
+  font-family: 'Whitney A', 'Whitney B'; 
+}
+h2 {
+  font-family: 'Whitney A', 'Whitney B'; 
+}
+h3 {
+  font-family: 'Whitney A', 'Whitney B'; 
+}
+a {
+  font-family: 'Whitney SSm A', 'Whitney SSm B'; 
+  font-weight: 300; 
+  font-style: normal;
+}
+strong {
+  font-family: 'Whitney A', 'Whitney B'; 
+  font-weight: 600; 
+  letter-spacing: .05em;
+}
+p {
+  line-height: 1.65em;
+  color: #636C7B;
+}
+h1 {
+    font-size: 4em;
+    font-weight: 700;
+}
+h2 {
+
+    font-size: 3em;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+h3 {
+
+    font-size: 2em;
+    line-height: 1.5em;
+    letter-spacing: 1px;
+}
+h4 {
+
+    font-size: 1.67em;
+}
+h5 {
+
+    font-size: 0.89em;
+    line-height: 1.5em;
+}
+small {
+  font-size: 0.89em;
+  line-height: 1.25em;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+h2, h3, h4, small {
+  color: #2E3B4E;
+}
+.p-large {
+  font-size: 22px;
+  line-height: 36px;
+}
+
+// Footer
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  margin-bottom: 160px;
+}
+#footer {
+  position: absolute;
+  bottom: 0;
+  height:160px;
+  background-color: #f1f1f0;
+  width: 100%;
+  text-align: left;
+  @media (max-width: 767px) {
+    height: 340px;
+    text-align: center;
+  }
+}
+.footer-links {
+  padding: 40px 0 25px;
+  .footer-logo {
+    padding-top: 10px;
+    float: left;
+    @media (max-width: 767px) {
+      float: none;
+    }
+  }
+  ul {
+  list-style-type: none;
+  }
+  h5 {
+    text-transform: uppercase;
+    color: #636c7b;
+    font-weight: 500;
+  }
+  li {
+  font-size: 14px;
+  list-style-type: none;
+  }
+  .list-links {
+    padding: 10px 0 0;
+    @media (max-width: 767px) {
+      padding: 0;
+    }
+  }
+  a {
+    color: #9a9a9a;
+  }
+}
