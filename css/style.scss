@@ -3,57 +3,62 @@
 # only Main files contain this front matter, not partials.
 ---
 
+// Variables
+
+$brand-primary: #f8ac00;
+$brand-secondary: #2CB5A8;
+$text-color: #2E3B4E;
+$border-radius: 3px;
+$grey: #919496;
+
 // Typography
+
+body {
+font-size: 18px;
+}
+
 p {
   font-family: 'Whitney SSm A', 'Whitney SSm B'; 
+  line-height: 26px;
+  color: #636C7B;
+  margin-bottom: 30px;
 }
 h1 {
-  font-family: 'Whitney A', 'Whitney B'; 
+    font-family: 'Whitney A', 'Whitney B';
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.5em;
+    color: $brand-secondary;
 }
 h2 {
-  font-family: 'Whitney A', 'Whitney B'; 
+    font-family: 'Whitney A', 'Whitney B'; 
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 2em;
+    text-transform: uppercase;
 }
 h3 {
-  font-family: 'Whitney A', 'Whitney B'; 
+    font-family: 'Whitney A', 'Whitney B';
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 1.5em;
+    letter-spacing: 1px;
+    color: $brand-secondary;
+}
+h4 {
+
+    font-size: 16px;
 }
 a {
   font-family: 'Whitney SSm A', 'Whitney SSm B'; 
   font-weight: 300; 
   font-style: normal;
+  color: $brand-primary;
 }
 strong {
   font-family: 'Whitney A', 'Whitney B'; 
   font-weight: 600; 
   letter-spacing: .05em;
-}
-p {
-  line-height: 1.65em;
-  color: #636C7B;
-}
-h1 {
-    font-size: 4em;
-    font-weight: 700;
-}
-h2 {
-
-    font-size: 3em;
-    font-weight: 300;
-    text-transform: uppercase;
-}
-h3 {
-
-    font-size: 2em;
-    line-height: 1.5em;
-    letter-spacing: 1px;
-}
-h4 {
-
-    font-size: 1.67em;
-}
-h5 {
-
-    font-size: 0.89em;
-    line-height: 1.5em;
 }
 small {
   font-size: 0.89em;
@@ -61,12 +66,112 @@ small {
   letter-spacing: 1px;
   text-transform: uppercase;
 }
-h2, h3, h4, small {
-  color: #2E3B4E;
-}
 .p-large {
   font-size: 22px;
   line-height: 36px;
+}
+.brand-color {
+  color: $brand-primary;
+}
+
+// Forms
+
+.form-inline {
+  padding: 15px 0 30px;
+}
+
+.form-group:last-child {
+  margin-bottom:0;
+}
+.control-label {
+  font-weight: 400;
+  color: $grey;
+}
+.field-name {
+  padding: 7px 15px 0;
+  font-weight: 400;
+  color: $grey;
+  text-align: right;
+  @media(max-width:767px){
+    text-align: left;
+  }
+}
+.field {
+  padding: 7px 0 0 15px;
+  .row:not(:first-child) {
+    padding-top: 15px;;
+  }
+}
+.form-control {
+  box-shadow: none;
+  height: 48px;
+}
+.form-control:focus {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.form-pull-right {
+  text-align: right;
+}
+
+.has-feedback .form-control-feedback-custom {
+position: absolute;
+top: 2px;
+right: 0;
+display: block;
+width: 36px;
+height: 36px;
+line-height: 36px;
+text-align: center;
+}
+
+select {
+  margin-top: 5px;
+  background-color: #ffffff;
+  border: 1px solid #cccccc;  
+}
+
+// Buttons
+
+.btn-custom {
+display: inline-block;
+margin-bottom: 0;
+text-align: center;
+min-width: 100px;
+vertical-align: middle;
+cursor: pointer;
+background-image: none;
+border: 1px solid;
+white-space: nowrap;
+padding: 9px 25px;
+line-height: 1.428571429;
+border-radius: $border-radius;
+text-decoration: none !important;
+font-size: 14px;
+letter-spacing: 1px;
+font-weight:500;
+height: 48px;
+}
+
+.btn-default {
+color: #FF9D00;
+background-color: #FFF;
+border-color: #ea9308;
+}
+
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active {
+color: #FF9D00;
+background-color: #FEF6EB;
+border-color: #ea9308;
+}
+
+// Navbar
+
+.navbar {
+  padding-top: 30px;
+  .navbar-nav {
+    display: none;
+  }
 }
 
 // Footer
@@ -76,6 +181,9 @@ html {
 }
 body {
   margin-bottom: 160px;
+  @media (max-width: 767px) {
+    margin-bottom: 340px;
+  }
 }
 #footer {
   position: absolute;
@@ -118,5 +226,61 @@ body {
   }
   a {
     color: #9a9a9a;
+  }
+}
+
+// Section Header
+
+.section-header {
+  padding: 15px 0 30px;
+  .divider-line {
+    height: 1px; 
+    background-color: $text-color; 
+    text-align: center;
+  }
+}
+
+// Author
+
+.author-container {
+  text-align: center;
+  padding: 45px 0 15px;
+  .author-pic {
+    img {
+      width: 80px;
+      border-radius: 50%;
+    }
+  }
+}
+
+// Email
+
+.email-container {
+  margin: 15px 0;
+  border: 1px solid #E3E4EC;
+  text-align: center;
+  border-radius: $border-radius;
+  .form-group {
+    width: 300px;
+    height: 48px;
+    @media (max-width: 767px) {
+    width: 100%;
+    padding: 0 15px;
+    }
+  }
+}
+
+// Return Links
+
+.return {
+  padding: 60px 0 30px;
+  .return-link {
+    font-size: 0.89em;
+    line-height: 1.25em;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: $text-color;
+    padding-left: 10px;
   }
 }

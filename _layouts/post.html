@@ -1,9 +1,42 @@
 ---
 layout: default
 ---
-<h2>{{ page.title }}</h2>
-<p class="meta">{{ page.date | date_to_string }}</p>
 
-<div class="post">
-{{ content }}
+<div class="faq-group">
+    <div class="faq-headline">
+        <h1>{{ page.title }}</h1> 
+        <p><small class="brand-color">JT White</small> | {{ page.date | date_to_string }}</p>
+    </div>
+    <div class="section-header">
+        <div class="divider-line">
+        </div>
+    </div>
+    {{ content }}
+    
+    <div class="author-container">
+    	<div class="author-pic">
+    		<img class="footer-logo" src="/img/jt-headshot-sm.png">
+    	</div>
+    	<small>JT White</small>
+    </div>
+
+    <div class="email-container">
+    	<h3>Enjoy what you read? Sign up for more below.</h3>
+    	<row>
+	    	<form class="form-inline" role="form">
+	    		<div class="form-group">
+				    <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Enter email">
+				</div>
+				<button type="submit" class="btn btn-default btn-custom">Submit</button>
+			</form>
+		</row>
+	</div>
+	<div class="return">
+    	<img class="footer-logo" src="/img/left-3.svg"><a class="return-link" href="/">Back to blog</a>
+    </div>
 </div>
+
+
+
+
+
