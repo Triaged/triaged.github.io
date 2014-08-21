@@ -3,6 +3,7 @@ layout: post
 title:  "Test post 1"
 date:   2014-08-19 10:24:43
 categories: jekyll update
+author: Sample Person
 ---
 
 You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
