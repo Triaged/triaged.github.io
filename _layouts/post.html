@@ -5,7 +5,7 @@ layout: default
 <div class="faq-group">
     <div class="faq-headline">
         <h1>{{ page.title }}</h1> 
-        <p><small class="brand-color">JT White</small> | {{ page.date | date_to_string }}</p>
+        <p><small class="brand-color">{{ page.author }}</small> | {{ page.date | date_to_string }}</p>
     </div>
     <div class="section-header">
         <div class="divider-line">
@@ -13,30 +13,34 @@ layout: default
     </div>
     {{ content }}
     
-    <div class="author-container">
-    	<div class="author-pic">
-    		<img class="footer-logo" src="/img/jt-headshot-sm.png">
-    	</div>
-    	<small>JT White</small>
-    </div>
 
-    <div class="email-container">
-    	<h3>Enjoy what you read? Sign up for more below.</h3>
-    	<row>
-	    	<form class="form-inline" role="form">
-	    		<div class="form-group">
-				    <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Enter email">
-				</div>
-				<button type="submit" class="btn btn-default btn-custom">Submit</button>
-			</form>
-		</row>
-	</div>
-	<div class="return">
-    	<img class="footer-logo" src="/img/left-3.svg"><a class="return-link" href="/">Back to blog</a>
-    </div>
+    <br /><br /><br />
+    <!-- Begin MailChimp Signup Form -->
+<link href="//cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
+<div  class="email-container">
+    <h3>Enjoy what you read? Sign up for more below.</h3>
+    <row>
+    <form action="//badge.us8.list-manage.com/subscribe/post?u=c5c3dd5ff4cfff725d7d8fcaf&amp;id=8e509ca164" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="form-inline" target="_blank" novalidate>
+        <div class="form-group">
+            <input type="email" value="" name="EMAIL" class="form-control"  placeholder="email address" required>
+            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+            <div style="position: absolute; left: -5000px;"><input type="text" name="b_c5c3dd5ff4cfff725d7d8fcaf_8e509ca164" tabindex="-1" value=""></div>
+        </div>
+        <button type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-default btn-custom">Submit </button>
+    </form>
+    </row>
+</div>
+<div class="return">
+        <img class="footer-logo" src="/img/left-3.svg"><a class="return-link" href="/">Back to blog</a>
+</div>
+
 </div>
 
 
+
+
+
+<!--End mc_embed_signup-->
 
 
 
