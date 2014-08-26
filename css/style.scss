@@ -46,8 +46,11 @@ h3 {
     margin: 20px 0 20px;
 }
 h4 {
-
+    font-family: 'Whitney A', 'Whitney B';
     font-size: 16px;
+}
+h5 {
+  font-family: 'Whitney SSm A', 'Whitney SSm B'; 
 }
 a {
   font-family: 'Whitney SSm A', 'Whitney SSm B'; 
@@ -263,6 +266,8 @@ body {
     text-transform: uppercase;
     color: #636c7b;
     font-weight: 500;
+    font-size: 0.89em;
+    line-height: 1.5em;
   }
   li {
   font-size: 14px;
