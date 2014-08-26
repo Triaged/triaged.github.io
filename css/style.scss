@@ -21,7 +21,7 @@ p {
   font-family: 'Whitney SSm A', 'Whitney SSm B'; 
   line-height: 26px;
   color: #636C7B;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 h1 {
     font-family: 'Whitney A', 'Whitney B';
@@ -33,17 +33,17 @@ h1 {
 h2 {
     font-family: 'Whitney A', 'Whitney B'; 
     font-size: 36px;
-    font-weight: 500;
-    line-height: 1.5em;
-    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 1.35em;
+    color: $brand-secondary;
 }
 h3 {
     font-family: 'Whitney A', 'Whitney B';
     font-size: 30px;
     font-weight: 500;
-    line-height: 1.5em;
-    letter-spacing: 1px;
-    color: $brand-secondary;
+    line-height: 1.25em;
+    letter-spacing: .5px;
+    margin: 20px 0 20px;
 }
 h4 {
 
@@ -169,6 +169,37 @@ background-color: #FEF6EB;
 border-color: #ea9308;
 }
 
+// Lists
+
+.faq-group {
+  ul {
+      list-style: none;
+      padding-left:25px;
+  }
+  li { 
+      color: #636C7B !important;
+      padding-left: 1em; 
+      text-indent: -.7em;
+      margin-bottom: 30px;
+  }
+  li:before {
+      content: "• ";
+      color: #636C7B; /* or whatever color you prefer */
+  }
+}
+
+// Text 
+
+.faq-group {
+  h3 {
+    margin-top: 60px;
+    font-size: 26px;
+  }
+  p {
+    margin-bottom: 30px;
+  }
+}
+
 // Navbar
 
 .navbar {
@@ -182,8 +213,12 @@ border-color: #ea9308;
 
 .posts {
   li ~ li {
-    padding-top: 75px;
+    padding: 50px 0 25px;
   }
+}
+
+.headline-date {
+  margin-bottom: 20px;
 }
 
 // Footer
@@ -272,6 +307,9 @@ body {
   border: 1px solid #E3E4EC;
   text-align: center;
   border-radius: $border-radius;
+  h3 {
+    color: $brand-secondary;
+  }
   .form-group {
     width: 300px;
     height: 48px;
