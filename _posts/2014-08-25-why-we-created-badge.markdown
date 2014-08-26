@@ -14,14 +14,14 @@ Work has changed (and will continue to change) in lots of meaningful ways.  Here
 **Jobs are becoming more flexible.**  
 Will we see Carlos Slim's three day workweek anytime soon?  I don't know, but the forty-hour week, made standard in 1938, is on its way out.  43% of employers offer flexible working hours already, and millennials see it as a priority in jobs they choose.
 
-+   Magic
-+   Bold prediction:  In 10 years, most employees will only come to the office three days or less per week.  Offices will serve as a place to convene - and they'll have more meeting rooms than desks.
+* Magic
+* Bold prediction:  In 10 years, most employees will only come to the office three days or less per week.  Offices will serve as a place to convene - and they'll have more meeting rooms than desks.
 
 **Work occurs everywhere.**  
 65% of email is opened first on mobile.  That's not surprising given that people are working at coffee shops, during their commute, at home, and everywhere in between. Further, we're seeing the rise of fully-mobile workforces.  At rental car agencies, you now return the car and get your receipt without going near a computer.
     * Bold prediction:  In 10 years, you won't see a single computer in hotels, restaurants, or airports - made possibly by a new class of software built for mobile-only workers.
 
-**Faces are changing more often.**
+**Faces are changing more often.**  
 Both companies and millennials are placing a premium on flexibility. The freelance economy is growing:  60% of companies plan to use more freelancers in 2014.  Further, 45% of millennials choose flexibility over pay, one driver that will lead over 60% of millennials to leave their current company within 3 years.
     * Bold prediction:  In 10 years, half of a company's workforce will be freelancers, part time, or remote workers.
 
