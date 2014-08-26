@@ -27,14 +27,14 @@ h1 {
     font-family: 'Whitney A', 'Whitney B';
     font-size: 48px;
     font-weight: 700;
-    line-height: 1.5em;
+    line-height: 1.35em;
     color: $brand-secondary;
 }
 h2 {
     font-family: 'Whitney A', 'Whitney B'; 
     font-size: 36px;
     font-weight: 500;
-    line-height: 2em;
+    line-height: 1.5em;
     text-transform: uppercase;
 }
 h3 {
@@ -54,6 +54,10 @@ a {
   font-weight: 300; 
   font-style: normal;
   color: $brand-primary;
+}
+a:hover, a:focus {
+  color: lighten($brand-primary, 10%);
+  text-decoration: none;
 }
 strong {
   font-family: 'Whitney A', 'Whitney B'; 
@@ -171,6 +175,14 @@ border-color: #ea9308;
   padding-top: 30px;
   .navbar-nav {
     display: none;
+  }
+}
+
+// Posts
+
+.posts {
+  li ~ li {
+    padding-top: 75px;
   }
 }
 
