@@ -9,7 +9,9 @@ At Badge, we believe great companies are built by empowered employees, and we've
 
 Ben Horowitz wrote a great blog post about [building good companies](http://www.bhorowitz.com/a_good_place_to_work%EF%BB%BF).  He defines a good place to work as one where “every person can wake up knowing that the work they do will be efficient, effective and make a difference both for the organization and themselves.”  That's a pretty good definition for an empowered employee.  
 
-Work has changed (and will continue to change) in lots of meaningful ways.  Here are a few that we find significant.  We've also included some bold 10 year predictions.  Disagree?  Let us know - we're @badgeapp on Twitter.
+Work has changed (and will continue to change) in lots of meaningful ways.  Here are a few that we find significant.  We've also included some bold 10 year predictions.  Disagree?  Let us know - we're [@badgeapp](https://twitter.com/badgeapp) on Twitter.
+
+###Five Trends & Five Bold Predictions
 
 **Jobs are becoming more flexible.** Will we see Carlos Slim's three day workweek anytime soon?  I don't know, but the forty-hour week, made standard in 1938, is on its way out.  43% of employers offer flexible working hours already, and millennials see it as a priority in jobs they choose.
 
@@ -36,7 +38,9 @@ Work has changed (and will continue to change) in lots of meaningful ways.  Here
 * Bold prediction:  In 10 years, employees will receive personal IT budgets, and reserve seats to the software they believe they need to get their job done.  Further, they'll review their experience with each vendor in a system that's Yelp for B2B software.
 
 
-###As work has changed, new challenges have emerged, and they'll become more pressing over time:
+###Five Challenges & Five Big Questions
+
+As work has changed, new challenges have emerged, and they'll become more pressing over time:
 
 **I don't know how or when to get a hold of people.** Everywhere I work, I end up developing custom escalation paths for people I work with.  Some usually reply to email.  Some only reply to text or phone calls.  Some only respond when I walk over to their desk.  And for most people, it varies based on how busy they are in a particular day.
     
