@@ -44,7 +44,7 @@ As work has changed, new challenges have emerged, and they'll become more pressi
 
 **I don't know how or when to get a hold of people.** Everywhere I work, I end up developing custom escalation paths for people I work with.  Some usually reply to email.  Some only reply to text or phone calls.  Some only respond when I walk over to their desk.  And for most people, it varies based on how busy they are in a particular day.
     
-* Big Question:  How do I understand
+* Big Question:  How do I resolve urgent issues, without falling into the void of overfull inboxes?
 
 **Accountability is low.** People respond to 12% of work emails.  You probably know a guy or gal in your company that just doesn't respond at all.  It's annoying, and it slows me down, but it doesn't impact their advancement.  So maybe it's surprising that even 12% are answered.  Further, the average response time is hours, not minutes.  With business moving in real time, slow is almost as bad as no response at all.  How do I get urgent customer issues resolved?
     
