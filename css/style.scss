@@ -201,7 +201,6 @@ border-color: #ea9308;
 // Text 
 
 .faq-group {
-  word-break: break-all;
   h3 {
     margin-top: 60px;
     font-size: 26px;
@@ -211,6 +210,9 @@ border-color: #ea9308;
   }
   img {
     width: 100%;
+  }
+  a {
+    word-break: break-all;
   }
 }
 
