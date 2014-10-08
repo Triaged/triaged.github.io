@@ -41,7 +41,7 @@ Your brand amounts to every detail in every hotel under your flag. When staff ha
 
 ## 8. Improvement
 
-If you can measure it, you can’t manage it. If all your operations flow through technology, then you can measure anything with the right software. iPods are the first step towards gaining the power to manage anything in your hotel.
+If you can't measure it, you can't manage it. If all your operations flow through technology, then you can measure anything with the right software. iPods are the first step towards gaining the power to manage anything in your hotel.
 
 ## 9. Cheap
 
